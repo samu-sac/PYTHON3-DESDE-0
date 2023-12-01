@@ -3,7 +3,7 @@
 cad = input("Introduce la cadena:")
 subcad = input("Introduce la subcadena:")
 
-if cad.fin(subcad) > -1:
+if cad.find(subcad) > -1:
 	print("La cadena contiene la subcadena.")
 else:
 	print("La cadena no contiene la subcadena")
